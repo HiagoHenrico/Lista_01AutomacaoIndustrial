@@ -17,7 +17,7 @@ namespace Lista01_Hiago
             {
                 Console.WriteLine("{0} - Exercício", i);
             };
-            Console.WriteLine("Digite o número exercício");
+            Console.WriteLine("Digite o número do exercício");
             numExercicio = Int16.Parse(Console.ReadLine());
             Console.WriteLine("Você digitou {0}", numExercicio);
             if(numExercicio>=1)
